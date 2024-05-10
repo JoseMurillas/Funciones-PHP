@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <!-- Se crea formulario para hacer la conexion con la hoja de logica (PHP) que los datos seran enviados por metodo Get -->
+    <form action="Ejercicio1p.php" method="get">
+        <!-- Se crea una tabla con un borde 1, donde tendra 2 columnas, una fila concatenada y la segunda fila con los requerimientos -->
+        <table border="1" style="width: 200; margin: 0 auto;">
+            <tr>
+                <td colspan="2">
+                    <h1>Operaciones Matemáticas</h1>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    Termino 1
+                    <input type="text" name="numero1" id="">
+                    <br>
+                    Termino 2
+                    <input type="text" name="numero2" id="">
+                    <br>
+                    <br>
+                    <input type="submit" value="Calcular" name="enviar" >
+                </td>
+                <td>
+                    <input type="radio" name="opciones" value="suma">
+                    Suma
+                    <br>
+                    <input type="radio" name="opciones" value="resta">
+                    Resta
+                    <br>
+                    <input type="radio" name="opciones" value="multiplicacion">
+                    Multiplicacion
+                    <br>
+                    <input type="radio" name="opciones" value="division">
+                    División
+                    <br>
+                    <input type="radio" name="opciones" value="porcentaje">
+                    Porcentaje
+                    <br>
+                    <input type="radio" name="opciones" value="potencia">
+                    Potencia
+                    <br>
+                    <input type="radio" name="opciones" value="raiz">
+                    Raiz Cuadrada
+                </td>    
+            </tr>
+           
+        </table>
+        
+    </form>
+</body>
+</html>
