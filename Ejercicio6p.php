@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php 
+        //La funcion almacena las ciudades en un switch cuando el usuario envie la ciudad, la funcion la va escoger      
         function ciudad($ciudad){
             switch ($ciudad) {
                 case "1":

@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        //La funcion calcula la edad del usuario, utilizando las funciones date y diff(para la diferencia)
         function calcularEdad($dia, $mes, $ano) {
             date_default_timezone_set("America/Bogota");
             $fecha = $ano . "-" . $mes . "-" . $dia;
